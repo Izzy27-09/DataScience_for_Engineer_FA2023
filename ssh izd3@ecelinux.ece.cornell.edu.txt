@@ -1,0 +1,11 @@
+ssh izd3@ecelinux.ece.cornell.edu
+
+scp- command to move 
+scp [name of file] [izd@izd3@ecelinux.ece.cornell.edu][location name]- uploads file to server
+
+
+stfp
+get-gets files from server
+put-places files to sever
+
+#!/usr/bin/env python-use this so compiler knows to use the python version installed on oc

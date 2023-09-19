@@ -1,0 +1,47 @@
+---
+title: "Report"
+format: word
+editor: visual
+---
+
+# 1.
+
+This is the shape the graph takes on if r is equal to 0.5 and x=0.75 over 31 iterations. If you look closely at the graph we can also see that it converges around zero.
+
+# 2.
+
+![](Github_Repos/DataScience_for_Engineer_FA2023/Untitled%20Folder/figure2.png)
+
+This is how the different graphs look at r=0.5,0.15, and 0.85 at x=0.75. All these graphs do converge at zero at some point, but when r=0.15, it converges the fastest.
+
+# 3.
+
+![](Github_Repos/DataScience_for_Engineer_FA2023/Untitled%20Folder/figure3.png)
+
+This graph shows the values of r=1.75 at x=0.75 over 31 iterations. with this graph, we see that it immediately spikes down close to zero then rises and converges around 0.4
+
+# 4.
+
+![](Github_Repos/DataScience_for_Engineer_FA2023/Untitled%20Folder/figure4.png)
+
+This graph shows the values of r=2.75 at x=0.75 over 31 iterations. With this graph, we see that it fluctuates quite a bit until its 13 iteration, from there, it converges onto approximately 0.63
+
+# 5.
+
+![](Github_Repos/DataScience_for_Engineer_FA2023/Untitled%20Folder/figure5.png)
+
+This graph shows the values of r=3.5 at x=0.75 over 31 iterations. With this graph, we see that it fluctuates through all of its iterations, reaching a maximum of 0.9 and a minimum of around 0.38 very consistently. At this r value, it doesn't converge onto anything.
+
+# 6.
+
+![](Github_Repos/DataScience_for_Engineer_FA2023/Untitled%20Folder/figure6.png)
+
+This graph shows the values of r=3.8 at x=0.75 over 31 iterations. With this graph, we see that yet again it fluctuates very much, refusing to converge onto a value
+
+# 7.
+
+![](Github_Repos/DataScience_for_Engineer_FA2023/Untitled%20Folder/figure7.png)
+
+This graph shows what values of r converge and which ones don't converge. We determine if a r value converges if x\[1500\] is less than 10−7 in magnitude or if the absolute value of the difference of the last two elements divided by the last element is less than 0.0001. From the graph, I don't see any values that were previously stated not to converge being marked converges or vice versa, which means that point the previously plotted graphs and this graph are both reliable in figuring it what values of r converge.
+
+# 8.
